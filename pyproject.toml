@@ -1,0 +1,18 @@
+# pip install git+https://github.com/sdual/early-stopping-pytorch.git@add-pyproject
+[tool.poetry]
+name = "early-stopping-pytorch"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "3.7"
+torchvision = "^0.8.2"
+matplotlib = "^3.3.4"
+numpy = "^1.20.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
